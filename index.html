@@ -1,52 +1,208 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!--bootstrap 4 penso SI METTE PRIMA PERCHE NON DEVE INTERFERIRE CON IL QUESRY PER REGOLA DELLA DISCENDEZNA-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <!--java script -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+          <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/58e1ebb4d2.js" crossorigin="anonymous"></script>
+        
+        <!-- CSS NORMMALE con responsive all'ultimo-->
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+            <div class="d-flex justify-content-between w-100">
+                <strong>START BOOTSTRAP</strong> 
+                <div>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- SOTTOHEADER -->
+        <div class="container-start">
+            <div class="custom-box">
+            <div class="mb-3">
+                <img src="./bootstrap_freelancer/img/avatar.svg" alt="Avater" class="img-fluid">
+            </div>
+            <h2>START BOOTSTRAP</h2>
+            <div class="custom-hr my-3">
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.396.198-.852-.149-.746-.592l.83-3.73L.173 7.765c-.329-.282-.158-.888.283-.95l3.897-.566L7.538.792c.197-.39.73-.39.927 0l2.185 4.457 3.897.566c.441.064.612.668.282.95l-2.523 2.356.83 3.73c.106.443-.35.79-.746.592L8 13.187l-3.389 2.256z"/>
+                </svg>
+                <hr>
+            </div>
+            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+            </div>
+        </div>
+        <div class="container-portfolio">
+            <div class="container-portfolio py-4 custom-box">
+            <div class="container text-center mb-4">
+                <h2>PORTFOLIO</h2>
+                <div class="custom-hr my-3 black">
+                    <hr>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.396.198-.852-.149-.746-.592l.83-3.73L.173 7.765c-.329-.282-.158-.888.283-.95l3.897-.566L7.538.792c.197-.39.73-.39.927 0l2.185 4.457 3.897.566c.441.064.612.668.282.95l-2.523 2.356.83 3.73c.106.443-.35.79-.746.592L8 13.187l-3.389 2.256z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                        <img src="./bootstrap_freelancer/img/cabin.png" class="card-img-top" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                        <img src="./bootstrap_freelancer/img/cake.png" class="card-img-top" alt="Image 2">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                        <img src="./bootstrap_freelancer/img/circus.png" class="card-img-top" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                        <img src="./bootstrap_freelancer/img/game.png" class="card-img-top" alt="Image 4">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                        <img src="./bootstrap_freelancer/img/safe.png" class="card-img-top" alt="Image 5">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                        <img src="./bootstrap_freelancer/img/submarine.png" class="card-img-top" alt="Image 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+         <!-- ddwdw -->
+        <div class="container-about">
+            <h1>About</h1>
+            <hr>
+            <div class="star-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="custom-hr my-3">
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.396.198-.852-.149-.746-.592l.83-3.73L.173 7.765c-.329-.282-.158-.888.283-.95l3.897-.566L7.538.792c.197-.39.73-.39.927 0l2.185 4.457 3.897.566c.441.064.612.668.282.95l-2.523 2.356.83 3.73c.106.443-.35.79-.746.592L8 13.187l-3.389 2.256z"/>
+                </svg>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel lacinia nisl, sit amet ultricies urna. Quisque sit amet dui justo. Donec accumsan erat a diam vulputate pretium.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel lacinia nisl, sit amet ultricies urna. Quisque sit amet dui justo. Donec accumsan erat a diam vulputate pretium.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="download-button">
+                    <i class="fas fa-download"></i> Download
+                </a>
+        </div>
+    </div>
     
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <!--bootstrap 4 penso SI METTE PRIMA PERCHE NON DEVE INTERFERIRE CON IL QUESRY PER REGOLA DELLA DISCENDEZNA-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <!--java script -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <div class="container contact-container">
+        <h1>Contact Me</h1>
+         <div class="custom-hr my-3">
+            <hr>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.396.198-.852-.149-.746-.592l.83-3.73L.173 7.765c-.329-.282-.158-.888.283-.95l3.897-.566L7.538.792c.197-.39.73-.39.927 0l2.185 4.457 3.897.566c.441.064.612.668.282.95l-2.523 2.356.83 3.73c.106.443-.35.79-.746.592L8 13.187l-3.389 2.256z"/>
+            </svg>
+            <hr>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-send">Send</button>
+        </form>
+    </div>
 
-    <!-- CSS NORMMALE con responsive all'ultimo-->
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    
 
-</head>
-<body>
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    <h1>LAYOUT</h1> 
-    <nav class="nav justify-content-center">
-      <a class="nav-link active" href="#">Active link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link disabled" href="#">Disabled link</a>
-    </nav>
-</body>
-</html>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Location</h5>
+                    <p>Random Lorem Street</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Around the Web</h5>
+                    <div class="social-icons">
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="google"><i class="fab fa-google"></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>About</h5>
+                    <p>Freelancer is free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                </div>
+            </div>
+            <hr style="background-color: white;">
+            <div class="row">
+                <div class="col-12">
+                    <p>&copy; Your Website 2023. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>

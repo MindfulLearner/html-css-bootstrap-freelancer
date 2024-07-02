@@ -1,0 +1,114 @@
+body > nav > div > div.d-flex.justify-content-between.w-100 {
+    align-items: center;
+    color: white;
+}
+
+.navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+body > nav {
+    background-color: #2c3e50;
+} 
+
+#navbarNav > ul a { 
+    color: white;
+}
+.custom-hr {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.custom-hr hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid white;
+    margin: 0 10px;
+}
+.custom-hr svg {
+    fill: white;
+}
+
+.mb-3 {
+    width: 200px;
+}
+
+.container-portfolio {
+    width: 100%;
+}
+
+.container-swag  {
+    width: 100%;
+}
+
+.custom-box {
+    background-color: #0abc9c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.custom-hr {
+    display: flex;
+    align-items: center;
+}
+.custom-hr hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid white;
+    margin: 0 10px;
+}
+.custom-hr svg {
+    fill: white;
+}
+
+body > div.container-portfolio > div > div.container.text-center.mb-4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+container-swag {
+    width: 100%;
+}
+
+.container-about {
+    width: 100%;
+    background-color: #0abc9c;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+body > div.container-portfolio > div  {
+    background-color: white;
+    color: black;
+}
+
+body > div.container-portfolio > div > div.container.text-center.mb-4 > div > hr {
+    border: 2px solid black;
+}
+
+body > div.container-portfolio > div > div.container.text-center.mb-4 > div > svg > path {
+    fill: black;
+}
+
+
+body > div.container.contact-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #3a546d;
+}
