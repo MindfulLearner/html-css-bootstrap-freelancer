@@ -22,5 +22,5 @@ Margini e padding di row e e col non vanno mai modificati, altrimenti la griglia
 - nomenclatura
 - 
 
-# PROBLEMATICHE DA SISTEMARE
+# PROBLEMATICHE DA SISTEMARE - PROBLEMA RISOLTO!!!!
 BOOTSTRAP NON MODIFICABILE DI CONSEGUENZA CREA PROBLEMI NEL MIO HTML
